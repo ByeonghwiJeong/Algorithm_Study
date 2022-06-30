@@ -1,2 +1,6 @@
 5
-32 55 62 3700 250
+level
+moon
+abcba
+soon
+gooG

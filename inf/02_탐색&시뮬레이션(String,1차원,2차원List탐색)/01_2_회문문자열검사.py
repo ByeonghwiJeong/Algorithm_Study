@@ -1,9 +1,5 @@
-import sys
-# sys.stdin = open("AA\input.txt", "rt")
-
 cnt = 1
-N = int(input())
-for _ in range(N):
+for _ in range(int(input())):
     s = input()
     s = s.lower()
     # ans = 'YES' if s == s[::-1] else 'NO'
@@ -15,3 +11,4 @@ for _ in range(N):
         ans = 'YES'
     print(f"#{cnt} {ans}")
     cnt += 1
+
