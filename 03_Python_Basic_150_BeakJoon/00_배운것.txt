@@ -1,0 +1,57 @@
+10669
+- 날짜 처리방법
+
+5535
+- 소수 출력 f-string
+- print(f'{ans:.2f}')
+
+11653 : 소인수분해 - 시간초과발생
+- 소수판별 x
+- 2부터 +1 씩하면서 나누기
+- 작은수부터 나누면 4 6에서 나눌수 없는것이 보장됨
+
+1789 : == 등호 케이스 주의
+- 규칙찾기
+
+1934 : 최소공배수
+- 재귀(내부함수호출) - return 필수
+
+9506 : 약수들의 합
+- ans = f'{n} = ' + ' + '.join(str(i) for i in sum_check)
+
+5634 : 생일
+- https://gorokke.tistory.com/38
+- 년도기준으로만 정렬
+    - 리스트.sort(key = lambda x : x[-1])
+- 년도, 월, 일 3가지 기준 정렬
+    - 정렬기준 여러개 일떄 (A, B) 튜플형식으로
+    - 리스트.sort(key = lambda x : (x[-1], x[-2], x[-3]))
+- 줄바꿈 출력 방식
+    - print(A, B, sep='\n')
+
+10871 : X보다작은수
+- 리스트 comprehension
+    - ans = [str(x) for x in list if x < X]
+- print(' '.join(ans))
+
+10809 : 알파벳찾기
+- 변수명 str XXXXX list XXXXXX
+- ' '.join(list) >>>> list 요소가 string 
+- 아스키코드 a:97 z:122 활용
+
+    |   word = input()
+    |   # 아스키코드 a : 97  // z : 122
+    |   alphabet = list(range(97, 123))
+    |   for x in alphabet:
+    |       print(word.find(chr(x)))
+
+1408 : 24
+- ans = ['0'+str(x)  if len(str(x)) == 1 else str(x) for x in ans]
+
+2581 : 소수
+- 소수판별 함수
+    - 1 처리 주의
+- check = [True] * (N+1) 방식
+    - index : 2 ~ N 확인
+    - 2 이후의 2의 배수 False : range(2*2, N+1, 2)
+    - 순차적으로 확인시 True인경우 소수 확정
