@@ -6,7 +6,6 @@ M x N 크기의 정사각형으로 이루어져 있는 보드에 대하여
 
 1. 가로 세로를 각각 M-7 x N-7 탐색한다.
 2. 탐색위치에서 시작이 W인경우와 B인경우를 구분하고 최소 값을 반환
-
 '''
 
 N, M = map(int, input().split())
@@ -24,7 +23,6 @@ def check_wb(y, x):
             else: # 홀수
                 if board[i][j] != 'B':
                     cnt += 1
-    # 시작한 체스판 W / B 
     return min(cnt, 64-cnt)
 
 ans = float('inf')
@@ -33,6 +31,5 @@ for i in range(N-7):
         tmp_min = check_wb(i, j)
         if tmp_min < ans:
             ans = tmp_min
-# print('-----------')
-# print(check_wb(0, 0))
+
 print(ans)

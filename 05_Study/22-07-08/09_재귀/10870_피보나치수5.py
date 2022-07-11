@@ -8,4 +8,4 @@ def fibonacci(x):
         return 1
     return fibonacci(x-1) + fibonacci(x-2)
 
-print(fibonacci(10))
+print(fibonacci(int(input())))
