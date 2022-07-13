@@ -1,6 +1,8 @@
-N, M = 3, 3
-a = [["*"] * N for _ in range(M)]
-b = [[" "] * 9 for _ in range(9)]
+_number = ['one', 'two', 'three', 'four']
+_num = [1, 2, 3, 4]
+_dict = dict((zip(_number, _num)))
 
-b[0][:3] = a[0][:3]
-print(*b, sep='\n')
+print(sorted(_dict))
+# ['four', 'one', 'three', 'two']
+print(sorted(_dict.items()))
+# [('four', 4), ('one', 1), ('three', 3), ('two', 2)]

@@ -13,6 +13,7 @@ for i in l:
         l_dict[i] += 1
     else:
         l_dict[i] = 1
+print(l_dict)
 mode = []
 for k, v in l_dict.items():
     if v == max(l_dict.values()):

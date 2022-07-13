@@ -15,8 +15,8 @@ for i in range(int(input())):
     a = list(input().split())
     a.append(i)
     members.append(tuple(a))
-print(members)
+# print(members)
 members.sort(key = lambda x:(int(x[0]), x[2]))
-print(members)
+# print(members)
 for m in members:
     print(m[0], m[1])
