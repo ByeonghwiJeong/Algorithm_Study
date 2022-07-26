@@ -19,8 +19,6 @@ for _ in range(N):
     _set.add(input().strip())
 for _ in range(M):
     _list.append(input().strip())
-# _ans = _set & _check
-# print(len(_ans))
 ans = 0
 for i in _list:
     if i in _set:
