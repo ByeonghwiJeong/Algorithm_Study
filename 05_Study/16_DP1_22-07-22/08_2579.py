@@ -5,8 +5,8 @@
 3. 마지막 계단 꼭
 
 10 20 15 25 10 20
-10 - [10, 0]
-20 - [10+20, 0]
+10 - [10, 10]
+20 - [10+20, 20]
 15 - [0, 10+15]
 25 - [10+15+25, 10+20+25] 
 
@@ -29,15 +29,14 @@ if N == 1:
 elif N == 2:
     print(sum(_list))
 elif N == 3:
-    print(_list[0] + _list[-1])
+    print(max(_list[0] + _list[-1], _list[1] + _list[2]))
 else:
-    dp[0][0] = _list[0]
-    dp[1][0] = _list[0] + _list[1]
-    dp[2][0] = _list[0] + _list[0]
+    dp[0] = [_list[0], _list[0]]
+    dp[1] = [_list[0] + _list[1], _list[1]]
+    dp[2] = [_list[2] + _list[1],_list[0] + _list[2]]
     for i in range(3, N):
         dp[i][0] = _list[i] + dp[i-1][1]
         dp[i][1] = _list[i] + max(dp[i-2])
     print(max(dp[-1]))
-
-    for p in dp:
-        print(*p)
+    # for p in dp:
+    #     print(*p)

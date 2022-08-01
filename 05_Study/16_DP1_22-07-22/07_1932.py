@@ -17,7 +17,6 @@ dp = [[0] * N for _ in range(N)]
 for i in range(N):
     _list = list(map(int, input().split()))
     for j in range(i+1):
-        print(i, j)
         if j == 0 and i == 0:
             dp[i][j] = _list[j]
         elif j == 0:
