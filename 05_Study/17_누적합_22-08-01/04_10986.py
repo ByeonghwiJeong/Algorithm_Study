@@ -40,9 +40,9 @@ for i in _remainders:
         _dict[i] += 1
     else:
         _dict[i] = 1
+
 ans = 0
 for i in _dict.values():
     ans += i * (i - 1) // 2
 
-print(ans)
-    
+print(ans)   
