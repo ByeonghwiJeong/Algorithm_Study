@@ -28,28 +28,28 @@ dx = [1, 0, -1, 0]
 sum = 0
 
 def dfs(y, x):
-  global sum
-  sum += 1
-  for i in range(4):
-    ny = y + dy[i]
-    nx = x + dx[i]
-    if 0<=ny<N and 0<=nx<N:
-      if chk[ny][nx] == False and map[ny][nx]:
-        chk[ny][nx] = True
-        dfs(ny, nx)
-  return sum
+    global sum
+    sum += 1
+    for i in range(4):
+        ny = y + dy[i]
+        nx = x + dx[i]
+        if 0<=ny<N and 0<=nx<N:
+            if chk[ny][nx] == False and map[ny][nx]:
+                chk[ny][nx] = True
+                dfs(ny, nx)
+    return sum
 
 
 
 sol = []
 
 for j in range(N):
-  for i in range(N):
-    if map[j][i] == 1 and chk[j][i] == False:
-      chk[j][i] = True
-      sum = 0
-      dfs(j, i)
-      sol.append(sum)
+    for i in range(N):
+        if map[j][i] == 1 and chk[j][i] == False:
+            chk[j][i] = True
+            sum = 0
+            dfs(j, i)
+            sol.append(sum)
 
 sol.sort()
 print(len(sol))

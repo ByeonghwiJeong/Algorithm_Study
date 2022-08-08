@@ -1,34 +1,33 @@
-# queen[n] == queen[i]
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(10 ** 7)
 
-def dfs(n):
-    if n == N:
-        global cnt 
-        cnt += 1
-        return
-
-    for i in range(N):
-
-        row[n] = i
-                
-        if is_valid(n):
-
-            dfs(n + 1)
-
-def is_valid(n):
-    for i in range(n):
-        # 
-        if row[n] == row[i] or abs(row[n] - row[i]) == abs(n - i):
+def check(x):
+    for i in range(x):
+        if rows[x] == rows[i] or abs(rows[x] - rows[i]) == x - i:
             return False
     return True
 
+def dfs(x):
+    global cnt
 
-N = int(input())
+    if x == n:
+        cnt += 1
+        return
+
+    for i in range(n):
+        if visited[i]: 
+            continue
+
+        rows[x] = i
+        if check(x):
+            visited[i] = True
+            dfs(x+1)
+            visited[i] = False
+
+n = int(input())
+rows = [0] * n
+visited = [False] * n
 cnt = 0
-row = [0] * N
-
 
 dfs(0)
 print(cnt)
