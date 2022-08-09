@@ -13,7 +13,7 @@ def backtrack(r):
     if r == N:
         res += 1
         return
-
+    # c : col , r : row
     for c in range(N):
         if c in col or (r + c) in posDiag  or (r - c) in negDiag:
             continue
