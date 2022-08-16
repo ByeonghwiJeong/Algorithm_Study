@@ -18,14 +18,16 @@ min_heap = []
 N = int(input())
 mid = int(input())
 print(mid)
+
 for _ in range(N - 1):
     x = int(input())
-    if x > mid:
+    if x > mid: # 중간 값보다 크면
         heapq.heappush(min_heap, x)
         if len(min_heap) > len(max_heap) + 1:
             heapq.heappush(max_heap, (-mid, mid))
             mid = heapq.heappop(min_heap)
-    else:
+    else: # 중간 값보다 작거나 같으면
+    # == 같은경우는 첫번째 조건에 들어가도 상관X
         heapq.heappush(max_heap, (-x, x))
         if len(max_heap) > len(min_heap):
             heapq.heappush(min_heap, mid)
