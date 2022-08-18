@@ -13,20 +13,19 @@ K개의 직사각형 내부를 제외한 나머지 부분이 몇 개의 분리 �
 
 좌표계의 순서가 매우 어지러움
 '''
+import sys
+sys.setrecursionlimit(10 ** 7)
+
 M, N, K = map(int, input().split())
 _board = [[1] * N for _ in range(M)]
-_check = [[True] * N for _ in range(M)]
+# _check = [[True] * N for _ in range(M)]
 dr = (0, 1, 0, -1)
 dc = (1, 0, -1, 0)
 
 def rec_check(r1, c1, r2, c2):
     for i in range(r1, r2):
         for j in range(c1, c2):
-            try:
-                _board[i][j] = 0
-            except:
-                print(i, j)
-                exit(0)
+            _board[i][j] = 0
 
 for _ in range(K):
     # 좌표랑 row col 반대주의!
@@ -38,24 +37,31 @@ def coord_vaild(r, c):
     # 표안에 있는지
     if 0<= r < M and 0 <= c < N:
         # board값이 1이고(0x) check가 True
-        if _check[r][c] and _board[r][c]:
+        # if _check[r][c] and _board[r][c]:
+        if _board[r][c]:
             return True
     return False
 
-area = []
-cnt = 0
-def dfs(r, c):
+
+def dfs(r, c, a):
     for i in range(4):
         nr = r + dr[i]
         nc = c + dc[i]
-         
+        if coord_vaild(nr, nc):
+            # _check[nr][nc] = False
+            _board[nr][nc] = 0
+            a = dfs(nr, nc, a + 1)   
+    return a
 
-
+area = []
 
 for i in range(M):
     for j in range(N):
         if coord_vaild(i, j):
-            _check[i][j] = False
-            cnt += 1
-            dfs(i, j)
+            # _check[i][j] = False
+            _board[i][j] = 0
+            area.append(dfs(i, j, 1))
+
+print(len(area))
+print(*sorted(area))
 
