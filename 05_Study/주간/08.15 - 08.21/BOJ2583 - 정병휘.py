@@ -11,14 +11,18 @@ K개의 직사각형 내부를 제외한 나머지 부분이 몇 개의 분리 �
     - 1 : 영역의 갯수
     - 2 : 그 영역의 넓이 오름차순
 
-좌표계의 순서가 매우 어지러움
+- 좌표계의 순서가 매우 어지러움 >> Row Col 사용
+- dfs로 찾아갈때 넓이 찾는법
+    - dfs(i, j, a)
+    - 위에 3번째 매개변수a를 이용한다.
+    - 처음에 호출시 a=1로 함수호출을 하며 다음 함수 호출시 a += 1을 한다
+    - 마지막에 return한다
 '''
 import sys
 sys.setrecursionlimit(10 ** 7)
 
 M, N, K = map(int, input().split())
 _board = [[1] * N for _ in range(M)]
-# _check = [[True] * N for _ in range(M)]
 dr = (0, 1, 0, -1)
 dc = (1, 0, -1, 0)
 
@@ -31,7 +35,6 @@ for _ in range(K):
     # 좌표랑 row col 반대주의!
     c1, r1, c2, r2 = map(int, input().split())
     rec_check(r1, c1, r2, c2)
-
 
 def coord_vaild(r, c):
     # 표안에 있는지
@@ -48,7 +51,7 @@ def dfs(r, c, a):
         nr = r + dr[i]
         nc = c + dc[i]
         if coord_vaild(nr, nc):
-            # _check[nr][nc] = False
+            # print("nr nc : ",nr, nc)
             _board[nr][nc] = 0
             a = dfs(nr, nc, a + 1)   
     return a
@@ -61,6 +64,7 @@ for i in range(M):
             # _check[i][j] = False
             _board[i][j] = 0
             area.append(dfs(i, j, 1))
+            print()
 
 print(len(area))
 print(*sorted(area))
