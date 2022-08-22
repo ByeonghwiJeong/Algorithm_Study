@@ -36,6 +36,9 @@ for _ in range(K):
     c1, r1, c2, r2 = map(int, input().split())
     rec_check(r1, c1, r2, c2)
 
+for b in _board:
+    print(*b)
+
 def coord_vaild(r, c):
     # 표안에 있는지
     if 0<= r < M and 0 <= c < N:
