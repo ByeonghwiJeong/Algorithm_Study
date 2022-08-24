@@ -19,13 +19,15 @@ sys.setrecursionlimit(10 ** 7)
 input = sys.stdin.readline
 
 N, M, P = map(int, input().split())
-graph = [[] for _ in range(M+1)]
+graph = [[] for _ in range(M+1)] # 2차원 배열 선언 / row index =  비선호채널
 visited = [False] * (M + 1) # 채널방문여부
 times = 0 # 채널변경 횟수
+
 
 for _ in range(N):
     a, b = map(int, input().split())
     graph[b].append(a) #비선호 채널index에 선호채널을 push
+
 
 def dfs(s):
     global times # 전역변수
@@ -38,6 +40,7 @@ def dfs(s):
         else: # 방문한경우
             times = -1
             return 
+
 
 dfs(P)
 print(times)

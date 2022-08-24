@@ -11,6 +11,7 @@
 탐색여부를 -1에서 0으로 바꾸어줘야 시간초과를 막을수 있음
 '''
 import sys
+sys.setrecursionlimit(10 ** 7)
 input = sys.stdin.readline
 
 M, N = map(int, input().split())
@@ -20,11 +21,12 @@ dp = [[-1] * N for _ in range(M)]
 dr = (0, 1, 0, -1)
 dc = (1, 0, -1, 0)
 # r행 c열에 몇번 도착했는지 반환
+dp[M-1][N-1] = 1
 
 def dfs(r, c):
     # 목적지 도착
     if r == M - 1 and c == N -1:
-        return 1
+        return dp[M-1][N-1]
     # 탐색 유무 확인
     if dp[r][c] == -1:
         dp[r][c] = 0
