@@ -40,5 +40,6 @@ def dfs(sr, sc):
                           dfs(nr, nc)
                           visited[nr][nc] = False
 
+visited[start[0]][start[1]] = True # 시작점 방문체크에 주의하자!!!!!!!
 dfs(*start)
 print(result)
