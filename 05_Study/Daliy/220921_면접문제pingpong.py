@@ -20,8 +20,6 @@ pingpong(100)=2
 - Assignment 를 쓰지 말 것. 즉, 변수 할당을 하지 말 것.
 - 스트링을 쓰지 말 것.
 '''
-import math
-
 def includeSeven(x):
     return (x - 1) % 10 == 7 or (x - 1) // 10 % 10 == 7 or (x - 1) // 100 % 10 == 7
 
