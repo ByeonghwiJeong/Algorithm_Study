@@ -26,7 +26,7 @@ def dfs(l, n, num): # l길이, n모음수, num암호길이
                     print(_list[i], end='')
             print()
         return
-    if l == C:
+    if l == C: # 위치때문에 정답찾는데 시간걸림
         return
     else:
         # 선택 O
@@ -43,5 +43,5 @@ def dfs(l, n, num): # l길이, n모음수, num암호길이
 dfs(0, 0, 0)
 
 '''
-if l == C를 print위에 위치시켜서 계속 정
+if l == C를 print위에 위치시켜서 출력이 이상하게나왔다
 '''
