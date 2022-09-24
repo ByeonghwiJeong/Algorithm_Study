@@ -5,6 +5,7 @@ tempCodeRunnerFile.cpp
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
 ### VisualStudioCode ###
+.vs
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
