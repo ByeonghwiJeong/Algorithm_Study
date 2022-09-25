@@ -15,16 +15,16 @@ https://www.acmicpc.net/problem/10597
 import sys
 
 nums = input()
-str_l = len(nums)
+str_l = len(nums) # 1 ~ 10 > 11  / 1 ~ 9 > 9
 if str_l >= 10:
     l = 9 + (str_l - 9) // 2
 else:
     l = str_l
-_list = [str(i) for i in range(1, l+1)]
+_list = [str(i) for i in range(1, l+1)] # 1 ~ 11
 visited = [0] * (l + 1)
 result = [0] * l
 nums = nums + '0'
-
+# 11 10
 def dfs(L, N):
     if L > str_l:
         return
@@ -32,8 +32,8 @@ def dfs(L, N):
         print(*result, sep=' ')
         sys.exit(0)
     # 1개 2개 경우
-    n1 = nums[L:L+1]
-    n2 = nums[L:L+2]
+    n1 = nums[L:L+1] # 4
+    n2 = nums[L:L+2] # 41 
     if n1 in _list:
         if not visited[int(n1)]:
             visited[int(n1)] = 1
@@ -48,6 +48,7 @@ def dfs(L, N):
             visited[int(n2)] = 0
 dfs(0, 0)
 '''
+4111109876532
 1 ~ 9 : 1개 
 10이상 : 2개
 처음에 주어지는 값의 길이를 가지고 숫자가 총 몇개인지 계산을 하면서 구현시작했다.
