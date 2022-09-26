@@ -33,7 +33,7 @@ vector<string> split_debug(string input, string delimiter){
 
 int main(){
     // string s = "안녕하세요 큰돌은 천재입니다! 정말이에요!";
-    string s = "aaaa bbb ccccc ee dddddddd!";
+    string s = "안녕하세요 큰돌은 천재입니다! 정말이에요!";
     string d = " ";
     vector<string> a = split(s, d);
     string s2 = "aaaa bbb ccccc ee dddddddd!";

@@ -1,5 +1,6 @@
 '''
 NQueen
+https://www.acmicpc.net/problem/9663
 '''
 N = int(input())
 rows = set()  #  rows check
