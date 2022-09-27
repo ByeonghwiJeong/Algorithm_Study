@@ -1,23 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-pair<int, int> pi;
-tuple<int, int, int> ti;
-int a, b, c;
+unordered_map<string, int> umap;
 int main(){
-    pi = {1, 2};
-    a = pi.first;
-    b = pi.second;
-    cout << a << " : " << b << "\n";
-    ti = make_tuple(1, 2, 3);
-    a = get<0>(ti);
-    b = get<1>(ti);
-    c = get<2>(ti);
-    cout << a << " : " << b << " : " << c << "\n";
+    umap["bcd"] = 1;
+    umap["aaa"] = 1;
+    umap["aba"] = 1;
+    for(auto i : umap){
+        cout << i.first << " : " << i.second << "\n"; 
+    }
     return 0;
 }
 /*
-1 : 2
-1 : 2 : 3
+aba : 1
+aaa : 1
+bcd : 1
 */
 
 
