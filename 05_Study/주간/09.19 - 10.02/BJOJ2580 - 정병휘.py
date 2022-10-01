@@ -16,7 +16,9 @@ for i in range(9):
 def valid_value(r, c, v):
     row = r // 3 * 3
     col = c // 3 * 3
-    for i in range(9):
+    for i in range(9): # 0 ~ 8 
+    # i // 3 :  0 0 0 1 1 1 2 2 2
+    # i %  3 :  0 1 2 0 1 2 0 1 2
         # row
         if board[r][i] == v:
             return False

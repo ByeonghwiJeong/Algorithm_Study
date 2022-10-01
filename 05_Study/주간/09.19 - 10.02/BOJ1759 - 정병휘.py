@@ -14,7 +14,7 @@ input = sys.stdin.readline
 L, C = map(int, input().split())
 _list = input().rstrip().split(' ')
 _list.sort()
-col = ["a", "e", "i", "o", "u"]
+col = set(["a", "e", "i", "o", "u"])
 visited = [0] * C
 
 def dfs(l, n, num): # l길이, n모음수, num암호길이
