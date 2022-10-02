@@ -13,7 +13,7 @@ pair<int, int> ret;
 void solve(){
     for(int i = 0; i < 9; i++){
         for(int j = 0; j < i; j++){
-            if(sum - a[i] -a[j] == 100){
+            if(sum - a[i] - a[j] == 100){
                 ret = {i, j};
                 return;
             }
@@ -37,3 +37,7 @@ int main(){
     for(int i : v) cout << i << "\n";
     return 0;
 }
+/*
+ALL합 - a - b == 100 ???
+solve() >> 9C2 구현
+*/
