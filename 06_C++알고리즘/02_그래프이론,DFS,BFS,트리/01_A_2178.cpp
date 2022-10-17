@@ -45,3 +45,16 @@ int main(){
     printf("%d", visited[n - 1][m - 1]);
     return 0;
 }
+/*
+< 따닥 따닥 붙어있는것 받기 >
+1. string 으로 변환
+cin >> n >> m;
+for(int j=0; j < n; j++){
+    cin >> s;
+}
+2. scanf로 받기
+scanf("%1d", &a[i][j]);
+
+조건 순서 중요!!
+if(nr < 0 || nr >= n || nc < 0 || nc >= m || a[nr][nc] == 0) 
+*/
