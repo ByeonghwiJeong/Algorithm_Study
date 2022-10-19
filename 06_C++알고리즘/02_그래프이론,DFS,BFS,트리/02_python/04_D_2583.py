@@ -17,6 +17,7 @@ def dfs(r, c):
         nc = c + dc[i]
         if 0 <= nr < m and 0 <= nc < n:
             if a[nr][nc] or visited[nr][nc]: continue
+            # cnt += 1
             dfs(nr, nc)
     return
 
@@ -33,7 +34,13 @@ for i in range(m):
     for j in range(n):
         if a[i][j] or visited[i][j]: continue
         cnt = 0
+        # cnt = 1
         dfs(i, j)
         ret.append(cnt)
 print(len(ret))
 print(*sorted(ret))
+"""
+<cnt += 1 의 위치>
+1. cnt = 1 선언후 dfs내부 재귀함수 호출전 cnt += 1
+2. cnt = 0 선언후 dfs내부 처음에 cnt += 1 
+"""
