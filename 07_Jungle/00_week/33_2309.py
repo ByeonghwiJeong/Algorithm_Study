@@ -11,4 +11,4 @@ for i in range(8):
                 if k == l[i] or k == l[j]:
                     continue
                 print(k)
-                exit()
+            exit()
