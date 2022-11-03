@@ -1,4 +1,4 @@
-# Jungle_00_week CheckPoint
+# Jungle_01_week CheckPoint
 
 ### 4344
 https://www.acmicpc.net/problem/4344
