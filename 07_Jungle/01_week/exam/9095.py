@@ -8,7 +8,7 @@ https://www.acmicpc.net/problem/9095
 import sys
 input = sys.stdin.readline
 
-b = [1, 2, 3]
+b = [1, 2, 3]\
 
 def dfs(s, n): # 첫번째 매개변수가 합, 두번째는 target
     global ret
@@ -16,7 +16,7 @@ def dfs(s, n): # 첫번째 매개변수가 합, 두번째는 target
         ret += 1  # global로 선언한 전역변수 ret += 1
         return  # 
     if n < s: return # target보다 초과하면 OUT
-    for i in b: # 
+    for i in b: 
         dfs(s+i, n)
     return
 

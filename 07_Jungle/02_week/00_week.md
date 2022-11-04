@@ -26,3 +26,23 @@ https://www.acmicpc.net/problem/2110
 ### 2110 - 용액 문제  
 https://www.acmicpc.net/problem/2470
 - 투포인터 or 이진탐색
+
+
+### 11053 - 가장 긴 증가하는 부분 수열
+https://www.acmicpc.net/problem/11053
+- dp방식
+- **기본으로 주어진 배열과 dp배열앞 '0'추가**
+- dp[i]는 A[i]보다 작은 A[j] 중 가장 큰 dp[j]값에 1을 더한값
+
+
+### 12015 - 가장 긴 증가하는 부분 수열
+https://www.acmicpc.net/problem/12015
+- 이진탐색 && **스택**
+
+### 8993 - 사냥꾼
+https://www.acmicpc.net/problem/8983
+- 동물의 x좌표를 기준으로 정렬된사로x위치중 가까운것 선택
+- 반례처리 : bisect_left기준 반환값 0 or len(x) 일경우
+    - 각각 x[0], x[-1] 반환
+    
+
