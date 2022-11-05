@@ -45,4 +45,9 @@ https://www.acmicpc.net/problem/8983
 - 반례처리 : bisect_left기준 반환값 0 or len(x) 일경우
     - 각각 x[0], x[-1] 반환
     
-
+### 2812 - 크게 만들기
+https://www.acmicpc.net/problem/2812
+- 기본적인 스택문제 
+- 특수한 조건인 k가 while문을 다돌았을때 0이아닌경우
+    - stack 뒤에 k개만큼 날리기
+    - input: 4 2 // 4321
