@@ -51,3 +51,20 @@ https://www.acmicpc.net/problem/2812
 - 특수한 조건인 k가 while문을 다돌았을때 0이아닌경우
     - stack 뒤에 k개만큼 날리기
     - input: 4 2 // 4321
+
+### 2164 - 카드2
+https://www.acmicpc.net/problem/2164
+- **collections.deque**
+    - q.append(q.popleft())
+    - q.rotate(-1)
+
+### 3190 - 뱀
+https://www.acmicpc.net/problem/3190
+- **그냥 다시풀자**
+
+### 11279 - 최대힙
+https://www.acmicpc.net/problem/11279
+- heapq : 최소힙으로 구성
+- 최대힙구현하려면 heapq.heappush(_list, (-x, x))
+- heapq.heappop(_list)
+
