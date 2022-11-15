@@ -68,3 +68,11 @@ https://www.acmicpc.net/problem/11279
 - 최대힙구현하려면 heapq.heappush(_list, (-x, x))
 - heapq.heappop(_list)
 
+### 1655 - 가운데를 말해요
+https://www.acmicpc.net/problem/11279
+- 초기값은 미리 받고 for문 돌리기
+
+### 1715 - 카드정렬하기
+https://www.acmicpc.net/problem/1715
+- 초기값 n = 1일때 비교불가능 0 출력
+- **반례 생각을 제대로하자!!**
