@@ -15,7 +15,7 @@
 2. 실외연결컴포넌트에 인접한 실내수 n
 > n * (n - 1)
 
-### [14888 - 연산자끼워넣기](https://www.acmicpc.net/problem/14888)
+### [✍🏻**14888** - 연산자끼워넣기](https://www.acmicpc.net/problem/14888)
 - `//` 나누기연산자
 - 음수방향(좌측으로)
 - ex)
@@ -46,14 +46,14 @@
     - 로직1은 Connected component의 갯수를 bfs/dfs 그리고 빙산지우기를 bfs/dfs 두번 돌렸었다.
     - 위로직을 빙산내부에서 돌리면서 component갯수와 빙산지우기 부분을 한번에 같이 체크해준다.
 
-### [2617 - 구슬찾기](https://www.acmicpc.net/problem/2573)
+### [✍🏻**2617** - 구슬찾기](https://www.acmicpc.net/problem/2573)
 - 그래프를 두가지 선언!!!
     - 무거운 방향 graph
     - 가벼운 방향 graph
 - 모든 구슬에 대하여 heavy, light Graph를이용 하여 DFS or BFS 탐색
 - 갯수가 (n - 1) // 2 보다 큰경우 불가능케이스
 
-### [1916 - 최소비용 구하기](https://www.acmicpc.net/problem/1916)
+### [✍🏻**1916** - 최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - **다익스트라 Dijkstra**
 - 1️⃣ : 그래프준비, dist리스트 INF로 초기화, 우선순위큐삽입
 - 2️⃣ : 출발노드 설정, 출발노드 비용 0(dist[start] = 0)
@@ -63,7 +63,7 @@
 - 6️⃣ : while 문으로 3, 4, 5 반복
 
 
- ### [2665 - 미로 만들기](https://www.acmicpc.net/problem/2665)
+ ### [✍🏻**2665** - 미로 만들기](https://www.acmicpc.net/problem/2665)
 - **다익스트라 Dijkstra**
 - 1️⃣ : board준비, visited 0으로 초기화, 우선순위큐삽입
     - (비용[벽부신수], ROW, COL)
@@ -73,3 +73,6 @@
 - 5️⃣ : 길인경우 (비용, nr, nc) 힙큐삽입
 - 6️⃣ : while 문으로 2, 3, 4 반복
     - **BREAK POINT** : (N-1, N-1) 도달시 비용반환
+
+ ### [✍🏻**7569** - 토마토](https://www.acmicpc.net/problem/7569)
+- 두번째 풀이 : visited를 사용하지않고 기존 토마토상자에 일수를 체크 하는방식
