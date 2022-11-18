@@ -76,3 +76,6 @@
 
  ### [✍🏻**7569** - 토마토](https://www.acmicpc.net/problem/7569)
 - 두번째 풀이 : visited를 사용하지않고 기존 토마토상자에 일수를 체크 하는방식
+
+### [✍🏻**2252** - 줄세우기](https://www.acmicpc.net/problem/2252)
+- **위상정렬 기본문제**
