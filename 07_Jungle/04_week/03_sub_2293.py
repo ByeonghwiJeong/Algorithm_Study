@@ -1,6 +1,6 @@
 '''
 < 동전 >
-https://www.acmicpc.net/problem/9084
+https://www.acmicpc.net/problem/2293
 문제)
 - 동전 1원, 5원, 10원, 50원, 100원, 500원
 - 금액이 주어졌을 때 금액을 만드는 모든 방법
