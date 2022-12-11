@@ -67,3 +67,7 @@ while True:
     if not flag: break
     cnt += 1
 print(cnt)
+
+'''
+이중for문안에서
+'''
