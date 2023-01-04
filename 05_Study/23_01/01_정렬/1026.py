@@ -9,4 +9,4 @@ b.sort(reverse=True)
 ans = 0
 for i in range(n):
     ans += a[i] * b[i]
-print(ans)
+print(ans) 
