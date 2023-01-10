@@ -14,4 +14,10 @@ check_3x3[i][j]
 
 import sys
 input = sys.stdin.readline
+check_row = [[0] * 10 for _ in range(9)]
 sudoku = [list(map(int, input().split())) for _ in range(9)]
+
+for i in range(9):
+    for j in range(9):
+        if sudoku[i][j] == 0: continue
+        

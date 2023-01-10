@@ -35,4 +35,4 @@ for i in range(2, 1001): #
         dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         dp[i][j] %= 10007
 
-print(sum(dp[int(input())]))
+print(sum(dp[int(input())]) % 10007)

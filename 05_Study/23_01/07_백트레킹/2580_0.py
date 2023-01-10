@@ -28,7 +28,7 @@ def val_check(r, c, v):
         for j in range(col, col + 3):
             if board[i][j] == v: return False
     
-    return
+    return True
         # 3 x 3
 
 # dfs n : 처리한 빈칸수
