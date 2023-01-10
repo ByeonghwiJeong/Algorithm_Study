@@ -20,4 +20,16 @@ sudoku = [list(map(int, input().split())) for _ in range(9)]
 for i in range(9):
     for j in range(9):
         if sudoku[i][j] == 0: continue
+
+
+def calc_area(x, y):
+    return (x // 3) * 3 + y // 3
+
+def fill_sudoku(cnt):
+    if cnt == 9 * 9:
+        return True
+
+    x, y = cnt // 9, cnt % 9
+
+    if sudoku
         
