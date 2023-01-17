@@ -15,3 +15,37 @@ https://www.acmicpc.net/problem/1238
 - 2[M]  : i번째 도로의 시작점, 끝점, 그리고 이 도로를 지나는데 필요한 소요시간 Ti가 들어온다. 시작점과 끝점이 같은도로는 없으며, 시작점과 한 도시 A에서 다른 도시 B로 가는 도로의 개수는 최대 1개이다.
 모든 학생들은 집에서 X에 갈수 있고, 
 '''
+import sys, heapq
+input = sys.stdin.readline
+INF = 10**9
+
+n, m, x = map(int, input().split())
+graph = [[] * (n + 1) for _ in range(n + 1)]
+
+for i in range(m):
+    st, en, cost = map(int, input().split())
+    graph[st].append((en, cost))
+
+def dijkstra(start_node):
+    distance = [INF] * (n + 1)
+    q = []
+    heapq.heappush(q, (0, start_node))
+    distance[start_node] = 0
+
+    while q:
+        cost, now = heapq.heappop(q)
+        if distance[now] < cost: continue
+        for i in graph[now]:
+            next_cost = i[1] + cost
+            if next_cost < distance[i[0]]:
+                distance[i[0]] = next_cost
+                heapq.heappush(q, (next_cost, i[0]))
+    return distance
+
+ans = [0] * (n + 1)
+
+for i in range(1, n + 1):
+    ans[i] = dijkstra(i)[x] + dijkstra(x)[i]
+    # dijkstra(i)[x] : i에서 x까지 이동
+    # dijkstra(x)[i] : x에서 i까지 이동
+print(max(ans))

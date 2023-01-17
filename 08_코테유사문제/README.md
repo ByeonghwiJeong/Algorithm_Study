@@ -1,3 +1,37 @@
 # [IT기업 및 대기업 계열사 유사 문제 모음](https://www.acmicpc.net/workbook/view/8708)
 
 ---
+
+## ✏️<span style="color:#A9CBD7">01.</span> [1238](https://www.acmicpc.net/problem/1238)
+
+- ❗️**일반적인 다익스트라**
+  - dist INF 배열 생성후 최소 Cost check
+  - heap자료구조 사용
+- 왕복이므로 각 위치마다 다익스트라 함수 2번 호출
+
+## ✏️<span style="color:#A9CBD7">02.</span> [13549](https://www.acmicpc.net/problem/13549)
+
+- heap을 사용한 BFS
+- ❗️**처음 if문에서 무분별한 continue 사용**
+  - 첫번째 2\*x이동조건에서 다른 while문으로 넘겨버림
+
+## ✏️<span style="color:#A9CBD7">03.</span> [4485](https://www.acmicpc.net/problem/4485)
+
+- ❗️**일반적인 다익스트라**
+- heap 자료 구조 사용
+- dijkstra 기본 : INF를 요소로 가지는 배열 생성
+- 4방향 탐색후 이전 값보다 현재값이 작은 경우 갱신
+
+## ✏️<span style="color:#A9CBD7">04.</span> [1253](https://www.acmicpc.net/problem/1253)
+
+- ❗️<span style="color:red">전형적인 </span>⭐️⭐️**투 포인터 Two-Pointer**⭐️⭐️
+- **<4가지 주의사항>**
+  1. 입력 받은 숫자들을 정렬했는가?
+  2. 숫자 목록에 음수가 포함
+  3. 수의 위치가 다르면 값이 같아도 다른 수라는 조건 고려
+  4. 투포인터로 검사할 때 현재 검사하고자 하는 숫자는 제외했는가?
+-
+
+## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
+
+## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
