@@ -32,6 +32,76 @@
   4. 투포인터로 검사할 때 현재 검사하고자 하는 숫자는 제외했는가?
 -
 
+## ✏️<span style="color:#A9CBD7">05.</span> [1806](https://www.acmicpc.net/problem/1806)
+
+- ❗️누적합 PrefixSum : 초기값 0
+- 1️⃣**PrefixSum**
+  - 왼쪽부터 시작 : st=0, en=1
+  - while문 조건 : st < n
+    - 조건만족시 st증가
+    - 조건불만족시 en을 먼저 계속 증가
+
+```python
+    while st < n: # st < en ❌
+        S = prefix_sum[en] - prefix_sum[st]
+        # S가 target보다 클때 point 좁히기
+        if S >= target:
+            ans = min(ans, en - st)
+            st += 1
+        else:
+            if en < n: en += 1 # 합을 크기 만들기 위해서
+            else: st += 1 # 탈출 조건을 위해서
+```
+
+- 2️⃣**TwoPointer**
+
+```python
+def two_pointer(target):
+    global ans
+    st, en, cur = 0, 0, 0 # 왼쪽부터 시작
+    while True:
+        if cur >= s:
+            ans = min(ans, en - st)
+            cur -= a[st]
+            st += 1
+        elif en == n:
+            break
+        else:
+            cur += a[en]
+            en += 1
+    return ans
+```
+
+## ✏️<span style="color:#A9CBD7">06.</span> [12919](https://www.acmicpc.net/problem/12919)
+
+- 단순한 dfs문제로 생각했음
+- **초기 풀이 - 시간초과발생**
+  > 50^2 : 시간 초과발생
+
+```python
+import sys
+sys.setrecursionlimit(10 ** 7)
+input = sys.stdin.readline
+
+s = input().rstrip()
+t = input().rstrip()
+
+def dfs(x):
+    if x == t:
+        print(1)
+        sys.exit()
+    if len(x) > len(t): return
+    dfs(x + 'A')
+    dfs((x+'B')[::-1])
+
+dfs(s)
+print(0)
+```
+
+- ⭐️⭐️**접근 방법 : 반대로 생각하기**⭐️⭐️
+  > > S ▶️ T가아닌
+  > > T ▶️ S로 조건에따라서 체크한다
+
 ## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
 
 ## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
