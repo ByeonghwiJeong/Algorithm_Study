@@ -2,27 +2,27 @@
 
 ---
 
-## ✏️<span style="color:#A9CBD7">01.</span> [1238](https://www.acmicpc.net/problem/1238)
+## ✏️01. [1238](https://www.acmicpc.net/problem/1238)
 
 - ❗️**일반적인 다익스트라**
   - dist INF 배열 생성후 최소 Cost check
   - heap자료구조 사용
 - 왕복이므로 각 위치마다 다익스트라 함수 2번 호출
 
-## ✏️<span style="color:#A9CBD7">02.</span> [13549](https://www.acmicpc.net/problem/13549)
+## ✏️02. [13549](https://www.acmicpc.net/problem/13549)
 
 - heap을 사용한 BFS
 - ❗️**처음 if문에서 무분별한 continue 사용**
   - 첫번째 2\*x이동조건에서 다른 while문으로 넘겨버림
 
-## ✏️<span style="color:#A9CBD7">03.</span> [4485](https://www.acmicpc.net/problem/4485)
+## ✏️03. [4485](https://www.acmicpc.net/problem/4485)
 
 - ❗️**일반적인 다익스트라**
 - heap 자료 구조 사용
 - dijkstra 기본 : INF를 요소로 가지는 배열 생성
 - 4방향 탐색후 이전 값보다 현재값이 작은 경우 갱신
 
-## ✏️<span style="color:#A9CBD7">04.</span> [1253](https://www.acmicpc.net/problem/1253)
+## ✏️04. [1253](https://www.acmicpc.net/problem/1253)
 
 - ❗️<span style="color:red">전형적인 </span>⭐️⭐️**투 포인터 Two-Pointer**⭐️⭐️
 - **<4가지 주의사항>**
@@ -32,7 +32,7 @@
   4. 투포인터로 검사할 때 현재 검사하고자 하는 숫자는 제외했는가?
 -
 
-## ✏️<span style="color:#A9CBD7">05.</span> [1806](https://www.acmicpc.net/problem/1806)
+## ✏️05. [1806](https://www.acmicpc.net/problem/1806)
 
 - ❗️누적합 PrefixSum : 초기값 0
 - 1️⃣**PrefixSum**
@@ -72,7 +72,7 @@ def two_pointer(target):
     return ans
 ```
 
-## ✏️<span style="color:#A9CBD7">06.</span> [12919](https://www.acmicpc.net/problem/12919)
+## ✏️06. [12919](https://www.acmicpc.net/problem/12919)
 
 - 단순한 dfs문제로 생각했음
 - **초기 풀이 - 시간초과발생**
@@ -102,6 +102,10 @@ print(0)
   > > S ▶️ T가아닌
   > > T ▶️ S로 조건에따라서 체크한다
 
-## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
+## ✏️07. [](https://www.acmicpc.net/problem/)
 
-## ✏️<span style="color:#A9CBD7">0.</span> [](https://www.acmicpc.net/problem/)
+## ✏️08. [](https://www.acmicpc.net/problem/)
+
+## ✏️0. [](https://www.acmicpc.net/problem/)
+
+## ✏️0. [](https://www.acmicpc.net/problem/)
