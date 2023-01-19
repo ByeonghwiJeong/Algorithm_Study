@@ -22,7 +22,7 @@ def dfs(x):
     if x == s:
         print(1)
         sys.exit()
-    if len(x) == len(t): return
+    if len(x) == len(s): return
     if x[-1] == 'A': dfs(x[:-1])
     if x[0] == 'B': dfs(x[1:][::-1])
 

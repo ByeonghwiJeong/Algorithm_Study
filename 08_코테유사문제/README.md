@@ -102,9 +102,17 @@ print(0)
   > S ▶️ T가아닌
   > T ▶️ S로 조건에따라서 체크한다
 
-## ✏️07. [](https://www.acmicpc.net/problem/)
+## ✏️07. [14658](https://www.acmicpc.net/problem/14658)
 
-## ✏️08. [](https://www.acmicpc.net/problem/)
+- 완전 탐색은 시간초과가 뜸
+- 트램펄린에서 이웃한 모서리에 두개의 별(a, b)이 걸쳐지게 하는 방식으로 탐색
+- ⭐️⭐️⭐️⭐️⭐️
+- [참고링크](https://astrid-dm.tistory.com/463)
+
+## ✏️08. [2531](https://www.acmicpc.net/problem/2531)
+
+- 슬라이딩 윈도우
+- defaultdict 사용
 
 ## ✏️0. [](https://www.acmicpc.net/problem/)
 
