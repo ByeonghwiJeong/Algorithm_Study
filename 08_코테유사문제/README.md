@@ -114,6 +114,80 @@ print(0)
 - 슬라이딩 윈도우
 - defaultdict 사용
 
+## ✏️09. [22233](https://www.acmicpc.net/problem/22233)
+
+- 기본적인 해쉬맵
+
+## ✏️0. [1987](https://www.acmicpc.net/problem/1987)
+
+- **초기 풀이 - 접근 방식 틀림**
+
+```python
+from collections import deque
+import sys
+input = sys.stdin.readline
+
+dr = (0, 1, 0, -1)
+dc = (1, 0, -1, 0)
+
+R, C = map(int, input().split())
+
+a = [input().rstrip() for _ in range(R)]
+visited = [[0] * C for _ in range(R)]
+alpha = set()
+
+def dfs():
+    q = deque()
+    q.append((0, 0))
+    visited[0][0] = 1
+    alpha.add(a[0][0])
+    ans = 1
+    while q:
+        r, c = q.popleft()
+        for i in range(4):
+            nr = r + dr[i]
+            nc = c + dc[i]
+            if 0 <= nr < R and 0 <= nc < C:
+                if a[nr][nc] in alpha: continue
+                if visited[nr][nc]: continue
+                q.append((nr, nc))
+                visited[nr][nc] = 1
+                alpha.add(a[nr][nc])
+                ans += 1
+    return ans
+print(*visited, sep='\n')
+print(dfs())
+```
+
+- ❗️**최대 몇칸을 이동할 수 있는가?????**
+- **두번째 풀이 - 시간초과**
+  ▶️ 그냥 pypy로 제출
+
+```python
+dr = (0, 1, 0, -1)
+dc = (1, 0, -1, 0)
+
+R, C = map(int, input().split())
+
+a = [input().rstrip() for _ in range(R)]
+visited = [[0] * C for _ in range(R)]
+
+result = 0
+
+def dfs(r, c, s):
+    global result
+    result = max(result, len(s))
+    for i in range(4):
+        nr = r + dr[i]
+        nc = c + dc[i]
+        if 0 <= nr < R and 0 <= nc < C:
+            if not a[nr][nc] in s:
+                dfs(nr, nc, s + a[nr][nc])
+
+dfs(0, 0, a[0][0])
+print(result)
+```
+
 ## ✏️0. [](https://www.acmicpc.net/problem/)
 
 ## ✏️0. [](https://www.acmicpc.net/problem/)
