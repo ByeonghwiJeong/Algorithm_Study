@@ -118,7 +118,7 @@ print(0)
 
 - 기본적인 해쉬맵
 
-## ✏️0. [1987](https://www.acmicpc.net/problem/1987)
+## ✏️10. [1987](https://www.acmicpc.net/problem/1987)
 
 - **초기 풀이 - 접근 방식 틀림**
 
@@ -188,6 +188,70 @@ dfs(0, 0, a[0][0])
 print(result)
 ```
 
-## ✏️0. [](https://www.acmicpc.net/problem/)
+## ✏️11. [20055](https://www.acmicpc.net/problem/20055)
+
+- **빡 구현 문제**
+
+## ✏️12. [2206](https://www.acmicpc.net/problem/2206)
+
+- 벽부시기 아이디어 : visited 3차원 배열
+
+## ✏️13. [1522](https://www.acmicpc.net/problem/1522)
+
+- **브루트포스인 이유** : 'a'가 연속되어 나타낼 수 있는 모든 경우를 모두 탐색
+- 그 중 가장 최소 교환 횟수
+- 연속된 'a'인 문자열의 경우를 슬라이딩 윈도우를 통해 하나씩 탐색
+- 답이 될 수 있는 문자열을 만든 후, 처음 입력값과 비교
+
+```python
+abababababababa
+aaaaaaaabbbbbbb 4
+baaaaaaaabbbbbb 4
+bbaaaaaaaabbbbb 4
+bbbaaaaaaaabbbb 4
+bbbbaaaaaaaabbb 4
+bbbbbaaaaaaaabb 4
+bbbbbbaaaaaaaab 4
+bbbbbbbaaaaaaaa 4
+abbbbbbbaaaaaaa 3
+aabbbbbbbaaaaaa 4
+aaabbbbbbbaaaaa 3
+aaaabbbbbbbaaaa 4
+aaaaabbbbbbbaaa 3
+aaaaaabbbbbbbaa 4
+aaaaaaabbbbbbba 3
+3
+```
+
+## ✏️14. [20437](https://www.acmicpc.net/problem/20437)
+
+## ✏️15. [16234](https://www.acmicpc.net/problem/16234)
+
+- **첫번째 15점 풀이**
+
+```python
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+s = input().rstrip()
+# 오른쪽 지우기
+if s[-1] == 'R':
+    s = s.rstrip('R')
+    a = s.count('R')
+    # b = s.count('B')
+else:
+    s = s.rstrip('B')
+    a = s.count('R')
+    # b = s.count('B')
+print(min(a, len(s)-a))
+```
+
+- 오른쪽으로 넘기는 경우말고 왼쪽으로 넘기는 경우도 Check
+
+## ✏️16. [16234](https://www.acmicpc.net/problem/16234)
+
+- **그냥 미쳤네**
+  > r, c같은거 상수로 선언하지말자(초기값)
 
 ## ✏️0. [](https://www.acmicpc.net/problem/)
