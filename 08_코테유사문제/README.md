@@ -254,4 +254,20 @@ print(min(a, len(s)-a))
 - **그냥 미쳤네**
   > r, c같은거 상수로 선언하지말자(초기값)
 
-## ✏️0. [](https://www.acmicpc.net/problem/)
+## ✏️17. [14719](https://www.acmicpc.net/problem/14719)
+
+- 양끝을 제외하고 index : 1 ~ W-1
+- 한 Column기준으로 양끝 max높이중 작은값 선택
+- 현재 index의 높이를 차감해서 물 높이 ans에 더하기
+
+## ✏️18. [2493](https://www.acmicpc.net/problem/2493)
+
+-
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
