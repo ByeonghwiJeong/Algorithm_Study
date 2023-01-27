@@ -262,7 +262,28 @@ print(min(a, len(s)-a))
 
 ## ✏️18. [2493](https://www.acmicpc.net/problem/2493)
 
--
+- 스택 + dp문제
+- 출력을 등수를 해야하는데
+  - stack에는 index를 저장하면서 pop을 반복하고
+  - 최종적으로 출력해야하는 dp에 **stack[-1] + 1**
+
+## ✏️19. [5972](https://www.acmicpc.net/problem/5972)
+
+- 전형적인 다익스트라 문제 ( + heapq )
+  1️⃣ 탐색 시작노드는 0 나머지는 INF로 초기화한 **distance배열** 선언
+  2️⃣ **최소힙**에 (0, 시작노드) 삽입 ~ (비용, 위치)
+  ❗️ **반복!!!! while**
+  3️⃣ 최소힙에서 원소 꺼내기 : 꺼낸 비용 vs distance[꺼낸 위치]
+  -> 꺼낸 비용이 더 크면 pass(continue)
+  4️⃣ 위조건을 통과 후 graph[꺼낸 위치]에 저장된 (위치, 비용) Check
+  5️⃣ 다음 비용 = 꺼낸비용 + graph비용
+  6️⃣ **if** 다음비용이 distance배열[graph 위치] 보다 작은경우
+  7️⃣ distance배열 재선언 & 최소힙에 삽입
+  8️⃣ distance배열 `return`
+
+## ✏️20. [15989](https://www.acmicpc.net/problem/15989)
+
+- dp : for문을 두번 따로 돌림!!!
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
