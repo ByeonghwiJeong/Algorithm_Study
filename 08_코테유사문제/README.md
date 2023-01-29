@@ -285,7 +285,25 @@ print(min(a, len(s)-a))
 
 - dp : for문을 두번 따로 돌림!!!
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️21. [1446](https://www.acmicpc.net/problem/1446)
+
+- 다익스트라 템플릿 암기
+
+## ✏️22. [2467](https://www.acmicpc.net/problem/)
+
+- 양쪽에서 줄어드는 투포인터
+
+## ✏️23. [1976](https://www.acmicpc.net/problem/1976)
+
+- 유니온 파인드
+
+## ✏️24. [1260](https://www.acmicpc.net/problem/)
+
+- pass
+
+## ✏️25. [9666](https://www.acmicpc.net/problem/9666)
+
+- DP
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
