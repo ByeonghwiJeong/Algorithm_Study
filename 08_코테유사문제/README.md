@@ -297,15 +297,11 @@ print(min(a, len(s)-a))
 
 - 유니온 파인드
 
-## ✏️24. [1260](https://www.acmicpc.net/problem/)
+## ✏️27. [22251](https://www.acmicpc.net/problem/22251)
 
-- pass
-
-## ✏️25. [9666](https://www.acmicpc.net/problem/9666)
-
-- DP
-
-## ✏️. [](https://www.acmicpc.net/problem/)
+- 숫자 표현법
+- 문자열.zfill(자리수)
+  ex) "11".zfill(5) : "00011"
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 

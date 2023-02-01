@@ -1,3 +1,4 @@
+AlgoSET.py
 index.html
 test.cpp
 test.c
@@ -7,6 +8,8 @@ test2.cpp
 tempCodeRunnerFile.py
 tempCodeRunnerFile.cpp
 *.json
+*.pdf
+solution.pdf
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
