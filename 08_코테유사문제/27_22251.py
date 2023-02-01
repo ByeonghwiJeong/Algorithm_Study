@@ -37,6 +37,7 @@ nums = [
 	[1,1,1,1,0,1,1], # 9
 ]
 
+
 N, K, P, X = map(int, input().split())
 
 res = 0
