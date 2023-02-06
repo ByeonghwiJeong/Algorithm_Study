@@ -81,7 +81,7 @@ for t in range(C): #사람이 움직임
             d ^= 1 # 반대방향
         
         if tmp[nr][nc]:
-            if shark[tmp[nr][nc]][4] < z:
+            if shark[tmp[nr][nc]][4] < shark[j][4]:
                 shark[tmp[nr][nc]][5] = 1
                 tmp[nr][nc] = j
             else: shark[j][5] = 1
