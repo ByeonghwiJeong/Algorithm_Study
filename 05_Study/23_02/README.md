@@ -61,13 +61,13 @@ print(*bfs(N), sep='\n')
 
 1. A, B 각각의 조각에 있어서 누적합배열 psum_A, psum_B을 정의
    - 초기값 [0]
-2. 누적합 배열에 원소를 넣을때 for문 2회씩 : Index기준
-   1. 1 ~ n, 1 ~ m
-   2. n+1 ~ 2*n, m+1 ~ 2*m
-3. 해쉬맵(dict or map)을 선언 - 파이썬 defaultdict
+2. 누적합 배열에 원소를 넣을때 for문 2회씩 : **Index기준**
+   1. `1 ~ n`, `1 ~ m`
+   2. `n+1 ~ 2*n`, `m+1 ~ 2*m`
+3. 해쉬맵(dict or map)을 선언 - 파이썬 **defaultdict**
 4. 전구간에서 interval을 기준으로 전구간을 체크해서 dict update
-   key : 합
-   value : 수
+   - `key` : 합
+   - `value` : 수
 5. 원하는 수 X를 기준으로 결과에
    1. - dict_A[X]
    2. - dict_B[X]
