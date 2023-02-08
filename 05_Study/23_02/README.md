@@ -80,9 +80,27 @@ print(*bfs(N), sep='\n')
   - 소의 이전 끝나는 시간 기준으로 더 큰값 선택
   - 선택값에 걸리는 시간 더하기 : 끝나는 시간
 
-## ✏️07. [](https://www.acmicpc.net/problem/)
+## ✏️0208. [1189](https://www.acmicpc.net/problem/1189)
 
-## ✏️08. [](https://www.acmicpc.net/problem/)
+### 재귀함수(r, c)
+
+- 목표 위치 도달
+  - 조건❌ : return 1
+  - 조건⭕️ : return 0
+- ret = 0 선언
+- 4방향 탐색
+  - 여러 조건 확인
+  - 방문체크
+  - ret += 재귀함수(nr, nc)
+  - 방문해제
+- return ret
+
+## ✏️0208. [5430](https://www.acmicpc.net/problem/5430)
+
+1. string 배열을 진짜 배열로 만들기
+   - 예외case: '[]'
+2. 직접 뒤집으면 안된다 - 시간초과 방지
+   - 방향 boolean상수 `direction`선언
 
 ## ✏️09. [](https://www.acmicpc.net/problem/)
 
