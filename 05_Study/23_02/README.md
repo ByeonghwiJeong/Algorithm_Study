@@ -102,7 +102,71 @@ print(*bfs(N), sep='\n')
 2. 직접 뒤집으면 안된다 - 시간초과 방지
    - 방향 boolean상수 `direction`선언
 
-## ✏️09. [](https://www.acmicpc.net/problem/)
+## ✏️0209. [17298](https://www.acmicpc.net/problem/17298)
+
+### 스택 자료구조 활용
+
+- for 1 ~ N:
+  - while :스택에 자료가 있고 \ 값[스택top]보다 오른쪽수가 더 크면
+    - ans[스택top] = 오른쪽수
+    - 스택pop
+  - index를 스택에 넣기
+
+## ✏️0209. [1781](https://www.acmicpc.net/problem/1781)
+
+### 1. 라인스위핑
+
+- 문제에는 데드라인이 있음 - 구간안에 풀어야함!!!
+- ![라인스위핑](https://blog.kakaocdn.net/dn/biuYDc/btrrpEpHCiq/iOCbtB5hkcYMmtt9NEqwW0/img.png)
+
+### 2. 배치 고려 - 정렬
+
+- ![정렬](https://user-images.githubusercontent.com/95831345/217975364-de64b08d-7ec9-4e86-be34-75b2e778c2e2.png)
+- 정렬기준 : 데드라인
+
+### 로직
+
+1. 데드라인기준 정렬
+2. ret = 0, hq = [] 선언
+3. for문 1 ~ N-1
+   1. ret 에 index컵라면 더하기
+   2. hq의 크기(걸리는시간) > index데드라인 - 데드라인넘는경우
+      - ret에 hq의 최소값빼기(최소힙 pop)
+4. ret 출력
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
+
+## ✏️. [](https://www.acmicpc.net/problem/)
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
