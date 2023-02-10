@@ -131,12 +131,57 @@ print(*bfs(N), sep='\n')
 3. for문 1 ~ N-1
    1. ret 에 index컵라면 더하기
    2. hq의 크기(걸리는시간) > index데드라인 - 데드라인넘는경우
-      - ret에 hq의 최소값빼기(최소힙 pop)
+      - ret에 hq의 최소값빼기(최소힙 pop) - 최소컵라면빼기
 4. ret 출력
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️0210. [12100](https://www.acmicpc.net/problem/12100)
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+### 4방향의 로직구현이 XX
+
+- 1. 1방향로직
+  - 일차원 배열에서 같은것 합치기 왼쪽으로 밀기
+- 2. 90도 rotate (암기)
+
+```python
+# 90도 회전
+def rotate(B):
+    tmp = [[0] * N for _ in range(N)]
+    for i in range(N):
+        for j in range(N):
+            tmp[i][j] = B[N - 1 - j][i]
+    return tmp
+```
+
+## ✏️0210. [15926](https://www.acmicpc.net/problem/15926)
+
+### 로직1
+
+![참고](https://user-images.githubusercontent.com/95831345/217994184-2cf43402-7f80-47d0-b2a8-3cf1680e193e.png)
+
+- **단순**
+- 유효한 괄호 부분을 1로 표시하는방법
+  - 최종적으로는 한번 연속된 1은 숫자롤 올려준다.
+- **로직**
+- 스택활용 : for문 i : 0 ~ n-1
+  - 정방향괄호 : '(' 이면 i-push
+  - 반대방향괄호 :
+    - stk에 잇는 경우
+      - 그 i부분 1 stk top도 1 저장
+      - d[i]=d[stk.pop()]=1
+    - stk에 원소 없는 경우루
+      - continue
+
+### 로직2
+
+1. stk에 [-1]로 선언
+2. for문 i ~ [1 \ n-1]
+   1. s[i]가 '('이면 stk에 i push
+   2. s[i]가 ')'이면
+      - stk.pop() 원소 빼기
+      - 스택에 원소 있으면
+        - ret = max(ret, i - stk[-1])
+      - 스택에 원소 없으면
+        - stk.append(i)
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 

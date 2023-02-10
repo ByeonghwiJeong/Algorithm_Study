@@ -27,7 +27,20 @@ for i in range(N):
 print(ret)
 
 '''
-### 문제에는 데드라인이 있음 - 구간안에 풀어야함!!!
-- 라인스위핑
-[라인스위핑](https://blog.kakaocdn.net/dn/biuYDc/btrrpEpHCiq/iOCbtB5hkcYMmtt9NEqwW0/img.png)
+### 1. 라인스위핑
+- 문제에는 데드라인이 있음 - 구간안에 풀어야함!!!
+- ![라인스위핑](https://blog.kakaocdn.net/dn/biuYDc/btrrpEpHCiq/iOCbtB5hkcYMmtt9NEqwW0/img.png)
+
+### 2. 배치 고려 - 정렬
+- ![정렬](https://user-images.githubusercontent.com/95831345/217975364-de64b08d-7ec9-4e86-be34-75b2e778c2e2.png)
+- 정렬기준 : 데드라인
+
+### 로직
+1. 데드라인기준 정렬
+2. ret = 0, hq = [] 선언
+3. for문 1 ~ N-1
+    1. ret 에 index컵라면 더하기
+    2. hq의 크기(걸리는시간) > index데드라인 - 데드라인넘는경우
+        - ret에 hq의 최소값빼기(최소힙 pop)
+4. ret 출력
 '''
