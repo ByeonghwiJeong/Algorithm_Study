@@ -1,4 +1,4 @@
-## ✏️0320. [5719](https://www.acmicpc.net/problem/5719)
+## ✏️0320. [11723](https://www.acmicpc.net/problem/11723)
 
 ### ⭐⭐⭐`비트 마스킹`⭐⭐⭐
 
@@ -38,7 +38,7 @@
 
 - n = 0
 
-## ✏️0320. [11723](https://www.acmicpc.net/problem/11723)
+## ✏️0320. [5719](https://www.acmicpc.net/problem/5719)
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
