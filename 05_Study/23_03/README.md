@@ -40,6 +40,28 @@
 
 ## ✏️0320. [5719](https://www.acmicpc.net/problem/5719)
 
+- 최단거리 간선 제거 `-1`으로 표기
+
+### 다익스트라
+
+```python
+def dijkstra():
+    distance = [INF] * (N + 1)
+    pq = []
+    heapq.heappush(pq, (0, S))
+    distance[S] = 0
+    while pq:
+        cost, now = heapq.heappop(pq)
+        if distance[now] < cost: continue
+        for i, nxt in enumerate(a[now]):
+            if nxt == -1: continue
+            next_cost = cost + nxt
+            if distance[i] > next_cost:
+                distance[i] = next_cost
+                heapq.heappush(pq, (next_cost, i))
+    return distance
+```
+
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
