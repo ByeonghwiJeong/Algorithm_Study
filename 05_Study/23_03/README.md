@@ -62,7 +62,16 @@ def dijkstra():
     return distance
 ```
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️14502. [14502](https://www.acmicpc.net/problem/14502)
+
+### dfs구현문제 : 바이러스확산을 막기위한 벽세우기 문제
+
+1. 빈칸을 미리 체크하기
+   -
+2. 빈칸중에서 3개를 뽑아서 벽으로 체크하기
+   - 바이러스 확산 시키기
+   - 확산이후에 빈칸 갯수 세기(return)
+3. 최대 값이면 갱신
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
