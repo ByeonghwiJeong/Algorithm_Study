@@ -67,13 +67,16 @@ def dijkstra():
 ### dfs구현문제 : 바이러스확산을 막기위한 벽세우기 문제
 
 1. 빈칸을 미리 체크하기
-   -
+   - 모든경우의수 체크(효율적으로 벽세우기 X)
 2. 빈칸중에서 3개를 뽑아서 벽으로 체크하기
    - 바이러스 확산 시키기
    - 확산이후에 빈칸 갯수 세기(return)
 3. 최대 값이면 갱신
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️16434. [16434](https://www.acmicpc.net/problem/16434)
+
+1. 이분탐색 풀이
+2. 그리디 풀이
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
