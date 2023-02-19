@@ -78,7 +78,35 @@ def dijkstra():
 1. 이분탐색 풀이
 2. 그리디 풀이
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️14620. [14620](https://www.acmicpc.net/problem/14620)
+
+### 완전탐색
+
+10 x 10 격자무늬에서
+100C3 < 100^3 = 100만 < 1억 : 완탐가능
+
+### 기본 로직
+
+```python
+visited[ny][nx] = 1
+go()
+visited[ny][nx] = 0
+```
+
+- 1️⃣ 꽃을 심을수 있나??? check함수로 5방향 방문&범위 체크
+- 2️⃣ 꽃방문처리 & 비용산출 setflower 함수
+- 3️⃣ 다른꽃심는 재귀함수
+- 4️⃣ 꽃방문 처리 해제
+
+### 조건 체크 순서 주의❗
+
+- 범위안에 있는지 check
+- 그 범위에서 방문체크
+
+```python
+    if not (0 <= nr < N and 0 <= nc < N): return 0
+    if visited[nr][nc]: return 0
+```
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
