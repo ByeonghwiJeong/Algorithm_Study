@@ -62,7 +62,7 @@ def dijkstra():
     return distance
 ```
 
-## ✏️14502. [14502](https://www.acmicpc.net/problem/14502)
+## ✏️0321. [14502](https://www.acmicpc.net/problem/14502)
 
 ### dfs구현문제 : 바이러스확산을 막기위한 벽세우기 문제
 
@@ -73,12 +73,12 @@ def dijkstra():
    - 확산이후에 빈칸 갯수 세기(return)
 3. 최대 값이면 갱신
 
-## ✏️16434. [16434](https://www.acmicpc.net/problem/16434)
+## ✏️0322. [16434](https://www.acmicpc.net/problem/16434)
 
 1. 이분탐색 풀이
 2. 그리디 풀이
 
-## ✏️14620. [14620](https://www.acmicpc.net/problem/14620)
+## ✏️0323. [14620](https://www.acmicpc.net/problem/14620)
 
 ### 완전탐색
 
