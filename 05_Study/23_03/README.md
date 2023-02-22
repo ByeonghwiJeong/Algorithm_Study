@@ -108,7 +108,27 @@ visited[ny][nx] = 0
     if visited[nr][nc]: return 0
 ```
 
-## ✏️. [](https://www.acmicpc.net/problem/)
+## ✏️0327. [1450](https://www.acmicpc.net/problem/1450)
+
+### 접근법
+
+경우의수 : 2의30승 -> 10억!!! -> DFS로 풀이 불가능!
+DP로 상태값 저장하기힘듬
+새로운개념 Meet in the Middle
+
+1. 완탐이 될까 ???
+2. DP로 해볼까 ???
+   -> 지금문제는 위와같이 접근하면안됨
+
+### <Meet in the Middle>
+
+N이 커서 N/2으로 반으로 쪼개서 완탐으로하는기법
+
+- 2의30승 >>> 2의15승 = 32000
+
+### bisect.bisect_right
+
+- 정렬된 그값 오른쪽 idx
 
 ## ✏️. [](https://www.acmicpc.net/problem/)
 
