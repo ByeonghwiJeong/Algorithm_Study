@@ -1,6 +1,6 @@
 ## ✏️0404. [4485](https://www.acmicpc.net/problem/4485)
 
-### 전형적인 다익스트라
+### 2차원 배열 다익스트라
 
 ```python
 def dijkstra():
