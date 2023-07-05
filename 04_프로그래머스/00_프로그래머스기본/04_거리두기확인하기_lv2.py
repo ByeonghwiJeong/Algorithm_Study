@@ -30,13 +30,14 @@ def check(place):
             if dist == 1: return 0
             if r1 == r2 and place[r1][(c1+c2)//2] != 'X': return 0
             if c1 == c2 and place[(r1+r2)//2][c1] != 'X': return 0
-            # if r1 != r2 and c1 != c2:
-            #     if place[r1][c2] == 'X' and place[r2][c1] == 'X': return 1
-            #     return 0
             if r1 != r2 and c1 != c2:
-                if place[r1][c2] != 'X' or place[r2][c1] != 'X': return 0
+                if not(place[r1][c2] == 'X' and place[r2][c1] == 'X'): return 0
     return 1
 
 def solution(places):
     answer = [check(place) for place in places]
     return answer 
+
+"""
+BFS보다 위방법이 더 효율적
+"""
