@@ -7,7 +7,7 @@ while (s:=input().rstrip()) != "end":
     lcnt = 0 # 연속모음수
     vcnt = 0 # 연속자음수
     is_include_v = False
-    flag = True # True
+    flag = True
     prev = -1;
     for i, v in enumerate(s):
         if v in vowel:
