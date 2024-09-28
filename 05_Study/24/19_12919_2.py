@@ -16,15 +16,17 @@ input = sys.stdin.readline
 S = input().strip()
 T = input().strip()
 
+# T에서 S
 def dfs(s, t):
     if s == t:
         print(1)
         sys.exit()
-    if len(s) == len(t): return
+    if len(s) == len(t): 
+        return
     if t[-1] == 'A':
         dfs(s, t[:-1])
     if t[0] == 'B':
-        dfs(s, t[:-1][::-1])
+        dfs(s, t[1:][::-1])
 
 dfs(S, T)
 print(0)

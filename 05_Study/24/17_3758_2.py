@@ -25,7 +25,6 @@ https://www.acmicpc.net/problem/3758
     - j ~ [1, k]
     - s ~ [0, 100]
 '''
-
 import sys
 input = sys.stdin.readline
 
@@ -33,30 +32,34 @@ T = int(input())
 
 for _ in range(T):
     n, k, t, m = map(int, input().split())
-    # 딕셔너리 선언 key : 팀번호, value : list ~ index : 문제번호, value : 점수
+
+    # 각 팀의 문제별 점수, 제출 횟수, 마지막 제출 시간 관리를 위한 딕셔너리 초기화
     team_dict = {
-        i: [0] * (k+1) 
+        i: {
+            'scores': [0] * (k+1),  # 문제 번호 1 ~ k, 0번 인덱스는 사용하지 않음
+            'submit_cnt': 0,        # 제출 횟수
+            'last_submit_time': 0   # 마지막 제출 시간
+        }
         for i in range(1, n+1)
     }
-    team_submit_cnt = [0] * (n+1)
-    team_last_submit_time = [0] * (n+1)
 
+    # 로그 처리
     for idx in range(m):
-        i, j, s = list(map(int, input().split()))
-        team_dict[i][j] = max(team_dict[i][j], s)
-        team_submit_cnt[i] += 1
-        team_last_submit_time[i] = idx
+        i, j, s = map(int, input().split())
+        team_dict[i]['scores'][j] = max(team_dict[i]['scores'][j], s)
+        team_dict[i]['submit_cnt'] += 1
+        team_dict[i]['last_submit_time'] = idx
 
-    
-    # 점수가 높은 순서대로 정렬
+    # 팀을 정렬
     sorted_team = sorted(
-        team_dict, 
-        key=lambda x: [
-            -sum(team_dict[x]), # 음수 -> 내림차순 (최고점수가 높은 순서대로)
-            team_submit_cnt[x], # 제출횟수가 적은 순서대로
-            team_last_submit_time[x] # 마지막 제출 시간이 빠른 순서대로
-        ]
+        team_dict.keys(),
+        key=lambda x: (
+            -sum(team_dict[x]['scores']),       # 총 점수의 내림차순
+            team_dict[x]['submit_cnt'],         # 제출 횟수의 오름차순
+            team_dict[x]['last_submit_time']    # 마지막 제출 시간의 오름차순
+        )
     )
 
+    # 당신 팀의 순위 출력
     print(sorted_team.index(t) + 1)
 

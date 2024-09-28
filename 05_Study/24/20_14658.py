@@ -23,7 +23,6 @@ https://www.acmicpc.net/problem/14658
 '''
 
 import sys
-from itertools import combinations
 input = sys.stdin.readline
 
 N, M, L, K = map(int, input().split())
@@ -41,9 +40,8 @@ def process(x, y):
     answer = max(answer, cnt)
 
 
-# 별똥별 두개 선택 (조합)
-for (x1, y1), (x2, y2) in combinations(stars, 2):
-    process(x1, y2)
-    process(x2, y1)
+for i in range(K):
+    for j in range(K):
+        process(stars[i][0], stars[j][1])
 
 print(K - answer)
