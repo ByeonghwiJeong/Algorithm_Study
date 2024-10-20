@@ -4,40 +4,33 @@ N = int(input())
 blocks = [list(map(int, input().split())) for _ in range(N)]
 
 # x좌표 기준 정렬
-blocks.sort(key=lambda x: x[0])
+blocks.sort()
 
-# 가장 높은 기둥 찾기
-max_height = max(blocks, key=lambda x: x[1])
-max_height_index = blocks.index(max_height)
+# 가장 높은 기둥의 인덱스를 찾는다.
+max_height, max_height_index = max((block[1], i) for i, block in enumerate(blocks))
 
-# 면적 계산 함수
-def cal_area(stack: list) -> int:
-    area = 0
-    for i in range(len(stack) - 1):
-        width = abs(stack[i+1][0] - stack[i][0])
-        height = stack[i][1]
-        area += width * height
-    return area
+result = 0
 
-# 왼쪽 영역 계산
-left_stack = [blocks[0]]  # 왼쪽에서 시작
-for i in range(1, max_height_index + 1):
-    if blocks[i][1] > left_stack[-1][1]:
-        left_stack.append(blocks[i])
-    elif blocks[i][1] == left_stack[-1][1]:
-        left_stack[-1] = blocks[i]  # 동일 높이에서는 오른쪽으로 확장
+# 왼쪽 부분 면적 계산 (가장 높은 기둥 전까지)
+left_height = blocks[0][1]
+for i in range(max_height_index):
+    if blocks[i+1][1] > left_height:
+        result += left_height * (blocks[i+1][0] - blocks[i][0])
+        left_height = blocks[i+1][1]
+    else:
+        result += left_height * (blocks[i+1][0] - blocks[i][0])
 
-left_area = cal_area(left_stack)
+# 오른쪽 부분 면적 계산 (가장 높은 기둥 이후)
+right_height = blocks[-1][1]
+for i in range(N-1, max_height_index, -1):
+    if blocks[i-1][1] > right_height:
+        result += right_height * (blocks[i][0] - blocks[i-1][0])
+        right_height = blocks[i-1][1]
+    else:
+        result += right_height * (blocks[i][0] - blocks[i-1][0])
 
-# 오른쪽 영역 계산
-right_stack = [blocks[-1]]  # 오른쪽에서 시작
-for i in range(N-2, max_height_index - 1, -1):
-    if blocks[i][1] > right_stack[-1][1]:
-        right_stack.append(blocks[i])
-    elif blocks[i][1] == right_stack[-1][1]:
-        right_stack[-1] = blocks[i]  # 동일 높이에서는 왼쪽으로 확장
+# 가장 큰 기둥의 면적 추가
+result += max_height
 
-right_area = cal_area(right_stack)
-
-# 결과 출력 (왼쪽 영역 + 가장 큰 기둥의 면적 + 오른쪽 영역)
-print(left_area + max_height[1] + right_area)
+# 결과 출력
+print(result)

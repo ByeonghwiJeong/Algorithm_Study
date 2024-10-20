@@ -67,7 +67,7 @@ while True:
     for i in range(N):
         for j in range(N):
             if visited[i][j]: continue
-            flag = dfs(i, j, visited)
+            flag |= dfs(i, j, visited) # 연합이 발생하면 True 
 
     if not flag: break
     cnt += 1

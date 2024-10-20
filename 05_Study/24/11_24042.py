@@ -39,23 +39,25 @@ for i in range(M):
 
 INF = sys.maxsize
 
-distance = [INF] * (N+1)
-distance[1] = 0
 
+distance = [INF] * (N+1)
+distance[1] = 0 # 1번 노드에서 시작 (시간 0분)
+
+# 우선순위 큐를 이용한 다익스트라
 q = []
-heapq.heappush(q, (0, 1)) # 1번 노드에서 시작
+heapq.heappush(q, (0, 1)) # 1번 노드에서 시작 (현재시각, 현재노드번호)
 
 while q:
-    time, node = heapq.heappop(q)
-    if distance[node] < time:
+    time, node = heapq.heappop(q) # 현재 가장 빠른 시간에 도착한 노드와 시간
+    if distance[node] < time: # 이미 더 빠른 경우 무시
         continue
-    for cost, next_node in graph[node]:
-        
-        # 주기 
+    for cost, next_node in graph[node]: # 현재 노드의 횡단보도 정보 확인
+
+        # 현재 시간에서 이 횡단 보도를 이용할 수 있는 가장 빠른 시간
         tmp = (time - cost) // M
-        if (time - cost) % M:
+        if (time - cost) % M: # 나머지가 있으면 다음 주기로 넘어가야함
             tmp += 1
-        next_time = cost + M * tmp + 1
+        next_time = cost + M * tmp + 1 # 다음 횡단보도를 이용할 수 있는 시간 (+1 이동시간)
 
         if distance[next_node] > next_time:
             distance[next_node] = next_time
