@@ -1,0 +1,165 @@
+번호,분류,문제번호,Tier,문제 제목,문제 URL,제출 횟수,정답률,,,,,,,,,,,,,,,,,
+1,브루트 포스 - 재귀,6603,,로또,https://www.acmicpc.net/problem/6603,65534,55,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/6603
+2,브루트 포스 - 재귀,1182,,부분수열의 합,https://www.acmicpc.net/problem/1182,97099,43,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1182
+3,브루트 포스 - 재귀,14225,,부분수열의 합,https://www.acmicpc.net/problem/14225,13325,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14225
+4,브루트 포스 - 재귀,14888,,연산자 끼워넣기,https://www.acmicpc.net/problem/14888,116920,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14888
+5,브루트 포스 - 재귀,15658,,연산자 끼워넣기 (2),https://www.acmicpc.net/problem/15658,9772,52,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15658
+6,브루트 포스 - 재귀,14500,,테트로미노,https://www.acmicpc.net/problem/14500,101413,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14500
+7,브루트 포스 - 재귀,16197,,두 동전,https://www.acmicpc.net/problem/16197,12439,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16197
+8,브루트 포스 - 재귀,16198,,에너지 모으기,https://www.acmicpc.net/problem/16198,6371,76,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16198
+9,브루트 포스 - 재귀,9663,,N-Queen,https://www.acmicpc.net/problem/9663,129084,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/9663
+10,브루트 포스 - 재귀,2580,,스도쿠,https://www.acmicpc.net/problem/2580,108964,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2580
+11,브루트 포스 - 재귀,4574,,스도미노쿠,https://www.acmicpc.net/problem/4574,2778,45,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/4574
+12,브루트 포스 - 순열,2529,,부등호,https://www.acmicpc.net/problem/2529,30163,57,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2529
+13,브루트 포스 - 순열,1339,,단어 수학,https://www.acmicpc.net/problem/1339,38858,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1339
+14,브루트 포스 - 순열,14888,,연산자 끼워넣기,https://www.acmicpc.net/problem/14888,116920,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14888
+15,브루트 포스 - 순열,14889,,스타트와 링크,https://www.acmicpc.net/problem/14889,109739,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14889
+16,브루트 포스 - 비트마스크,14225,,부분수열의 합,https://www.acmicpc.net/problem/14225,13325,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14225
+17,브루트 포스 - 비트마스크,1062,,가르침,https://www.acmicpc.net/problem/1062,56616,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1062
+18,브루트 포스 - 비트마스크,13460,,구슬 탈출 2,https://www.acmicpc.net/problem/13460,99189,28,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/13460
+19,브루트 포스 - 비트마스크,12100,,2048 (Easy),https://www.acmicpc.net/problem/12100,99414,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12100
+20,브루트 포스 - 기타,2003,,수들의 합 2,https://www.acmicpc.net/problem/2003,63448,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2003
+21,브루트 포스 - 기타,1806,,부분합,https://www.acmicpc.net/problem/1806,113733,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1806
+22,브루트 포스 - 기타,1644,,소수의 연속합,https://www.acmicpc.net/problem/1644,53767,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1644
+23,브루트 포스 - 기타,1208,,부분수열의 합 2,https://www.acmicpc.net/problem/1208,31434,25,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1208
+24,브루트 포스 - 기타,2143,,두 배열의 합,https://www.acmicpc.net/problem/2143,33306,32,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2143
+25,그래프 알고리즘,16929,,Two Dots,https://www.acmicpc.net/problem/16929,11599,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16929
+26,그래프 알고리즘,16947,,서울 지하철 2호선,https://www.acmicpc.net/problem/16947,8986,43,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16947
+27,그래프 알고리즘,12946,,육각 보드,https://www.acmicpc.net/problem/12946,2104,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12946
+28,그래프 알고리즘,16940,,BFS 스페셜 저지,https://www.acmicpc.net/problem/16940,11266,25,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16940
+29,그래프 알고리즘,16964,,DFS 스페셜 저지,https://www.acmicpc.net/problem/16964,7031,35,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16964
+30,BFS 알고리즘,16928,,뱀과 사다리 게임,https://www.acmicpc.net/problem/16928,49408,34,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16928
+31,BFS 알고리즘,16948,,데스 나이트,https://www.acmicpc.net/problem/16948,8088,69,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16948
+32,BFS 알고리즘,14502,,연구소,https://www.acmicpc.net/problem/14502,110541,55,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14502
+33,BFS 알고리즘,12886,,돌 그룹,https://www.acmicpc.net/problem/12886,13777,29,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12886
+34,BFS 알고리즘,2206,,벽 부수고 이동하기,https://www.acmicpc.net/problem/2206,159461,23,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2206
+35,BFS 알고리즘,16946,,벽 부수고 이동하기 4,https://www.acmicpc.net/problem/16946,27942,25,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16946
+36,BFS 알고리즘,14442,,벽 부수고 이동하기 2,https://www.acmicpc.net/problem/14442,35339,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14442
+37,BFS 알고리즘,16933,,벽 부수고 이동하기 3,https://www.acmicpc.net/problem/16933,20217,23,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16933
+38,BFS 알고리즘,16954,,움직이는 미로 탈출,https://www.acmicpc.net/problem/16954,15872,28,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16954
+39,BFS 알고리즘,16236,,아기 상어,https://www.acmicpc.net/problem/16236,75351,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16236
+40,BFS 알고리즘,6087,,레이저 통신,https://www.acmicpc.net/problem/6087,22683,23,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/6087
+41,BFS 알고리즘,1963,,소수 경로,https://www.acmicpc.net/problem/1963,16237,60,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1963
+42,BFS 알고리즘,10026,,적록색약,https://www.acmicpc.net/problem/10026,77046,56,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/10026
+43,BFS 알고리즘,14395,,4연산,https://www.acmicpc.net/problem/14395,9741,29,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14395
+44,BFS 알고리즘,5014,,스타트링크,https://www.acmicpc.net/problem/5014,59912,34,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/5014
+45,BFS 알고리즘,9376,,탈옥,https://www.acmicpc.net/problem/9376,12099,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/9376
+46,BFS 알고리즘,1600,,말이 되고픈 원숭이,https://www.acmicpc.net/problem/1600,67785,21,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1600
+47,BFS 알고리즘,17086,,아기 상어 2,https://www.acmicpc.net/problem/17086,13561,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17086
+48,BFS 알고리즘,4991,,로봇 청소기,https://www.acmicpc.net/problem/4991,12342,32,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/4991
+49,BFS 알고리즘,2234,,성곽,https://www.acmicpc.net/problem/2234,12767,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2234
+50,BFS 알고리즘,12906,,새로운 하노이 탑,https://www.acmicpc.net/problem/12906,1642,53,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12906
+51,BFS 알고리즘,17141,,연구소 2,https://www.acmicpc.net/problem/17141,12711,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17141
+52,BFS 알고리즘,17142,,연구소 3,https://www.acmicpc.net/problem/17142,49658,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17142
+53,다이나믹 프로그래밍,11048,,이동하기,https://www.acmicpc.net/problem/11048,35473,58,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/11048
+54,다이나믹 프로그래밍,11060,,점프 점프,https://www.acmicpc.net/problem/11060,24095,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/11060
+55,다이나믹 프로그래밍,10942,,팰린드롬?,https://www.acmicpc.net/problem/10942,63499,30,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/10942
+56,다이나믹 프로그래밍,15989,,"1, 2, 3 더하기 4",https://www.acmicpc.net/problem/15989,12043,64,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15989
+57,다이나믹 프로그래밍,11066,,파일 합치기,https://www.acmicpc.net/problem/11066,35525,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/11066
+58,다이나믹 프로그래밍,12865,,평범한 배낭,https://www.acmicpc.net/problem/12865,153517,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12865
+59,다이나믹 프로그래밍,1495,,기타리스트,https://www.acmicpc.net/problem/1495,22663,39,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1495
+60,다이나믹 프로그래밍,12869,,뮤탈리스크,https://www.acmicpc.net/problem/12869,11557,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12869
+61,다이나믹 프로그래밍,10422,,괄호,https://www.acmicpc.net/problem/10422,10699,30,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/10422
+62,다이나믹 프로그래밍,2293,,동전 1,https://www.acmicpc.net/problem/2293,70722,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2293
+63,다이나믹 프로그래밍,2294,,동전 2,https://www.acmicpc.net/problem/2294,82130,30,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2294
+64,다이나믹 프로그래밍,11058,,크리보드,https://www.acmicpc.net/problem/11058,7953,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/11058
+65,다이나믹 프로그래밍,9251,,LCS,https://www.acmicpc.net/problem/9251,98265,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/9251
+66,다이나믹 프로그래밍,9252,,LCS 2,https://www.acmicpc.net/problem/9252,48143,38,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/9252
+67,다이나믹 프로그래밍,5582,,공통 부분 문자열,https://www.acmicpc.net/problem/5582,21167,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/5582
+68,다이나믹 프로그래밍,5557,,1학년,https://www.acmicpc.net/problem/5557,21539,47,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/5557
+69,시뮬레이션과 구현,16234,,인구 이동,https://www.acmicpc.net/problem/16234,76812,39,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16234
+70,시뮬레이션과 구현,16235,,나무 재테크,https://www.acmicpc.net/problem/16235,67551,22,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16235
+71,시뮬레이션과 구현,17144,,미세먼지 안녕!,https://www.acmicpc.net/problem/17144,43886,55,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17144
+72,시뮬레이션과 구현,17143,,낚시왕,https://www.acmicpc.net/problem/17143,55381,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17143
+73,시뮬레이션과 구현,17140,,이차원 배열과 연산,https://www.acmicpc.net/problem/17140,23722,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17140
+74,시뮬레이션과 구현,17780,,새로운 게임,https://www.acmicpc.net/problem/17780,4429,49,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17780
+75,시뮬레이션과 구현,17837,,새로운 게임 2,https://www.acmicpc.net/problem/17837,15467,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17837
+76,시뮬레이션과 구현,17822,,원판 돌리기,https://www.acmicpc.net/problem/17822,22308,35,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17822
+77,시뮬레이션과 구현,16939,,2×2×2 큐브,https://www.acmicpc.net/problem/16939,1967,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16939
+78,시뮬레이션과 구현,16974,,레벨 햄버거,https://www.acmicpc.net/problem/16974,2718,51,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16974
+79,시뮬레이션과 구현,20061,,모노미노도미노 2,https://www.acmicpc.net/problem/20061,9458,35,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/20061
+80,시뮬레이션과 구현,19236,,청소년 상어,https://www.acmicpc.net/problem/19236,15001,65,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/19236
+81,시뮬레이션과 구현,19237,,어른 상어,https://www.acmicpc.net/problem/19237,16671,40,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/19237
+82,브루트 포스 Part 1,16968,,차량 번호판 1,https://www.acmicpc.net/problem/16968,5092,60,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16968
+83,브루트 포스 Part 1,16917,,양념 반 후라이드 반,https://www.acmicpc.net/problem/16917,5047,58,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16917
+84,브루트 포스 Part 1,16922,,로마 숫자 만들기,https://www.acmicpc.net/problem/16922,7280,54,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16922
+85,브루트 포스 Part 1,16924,,십자가 찾기,https://www.acmicpc.net/problem/16924,3718,38,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16924
+86,브루트 포스 Part 1,16936,,나3곱2,https://www.acmicpc.net/problem/16936,4550,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16936
+87,브루트 포스 Part 1,16937,,두 스티커,https://www.acmicpc.net/problem/16937,5253,38,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16937
+88,브루트 포스 Part 1,16938,,캠프 준비,https://www.acmicpc.net/problem/16938,4680,69,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16938
+89,브루트 포스 Part 1,16943,,숫자 재배치,https://www.acmicpc.net/problem/16943,5035,45,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16943
+90,브루트 포스 Part 1,16637,,괄호 추가하기,https://www.acmicpc.net/problem/16637,23261,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16637
+91,브루트 포스 Part 1,15683,,감시,https://www.acmicpc.net/problem/15683,56818,45,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15683
+92,브루트 포스 Part 1,17088,,등차수열 변환,https://www.acmicpc.net/problem/17088,2110,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17088
+93,브루트 포스 Part 1,15686,,치킨 배달,https://www.acmicpc.net/problem/15686,99998,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15686
+94,브루트 포스 Part 1,2210,,숫자판 점프,https://www.acmicpc.net/problem/2210,10896,74,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2210
+95,브루트 포스 Part 1,2422,,한윤정이 이탈리아에 가서 아이스크림을 사먹는데,https://www.acmicpc.net/problem/2422,12422,40,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2422
+96,브루트 포스 Part 1,17089,,세 친구,https://www.acmicpc.net/problem/17089,2148,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17089
+97,브루트 포스 Part 1,17406,,배열 돌리기 4,https://www.acmicpc.net/problem/17406,24169,39,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17406
+98,브루트 포스 Part 1,17135,,캐슬 디펜스,https://www.acmicpc.net/problem/17135,37414,33,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17135
+99,브루트 포스 Part 1,17281,,⚾,https://www.acmicpc.net/problem/17281,19122,43,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17281
+100,브루트 포스 Part 2,17779,,게리맨더링 2,https://www.acmicpc.net/problem/17779,14209,52,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17779
+101,브루트 포스 Part 2,17070,,파이프 옮기기 1,https://www.acmicpc.net/problem/17070,46896,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17070
+102,브루트 포스 Part 2,17069,,파이프 옮기기 2,https://www.acmicpc.net/problem/17069,6873,59,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17069
+103,브루트 포스 Part 2,16638,,괄호 추가하기 2,https://www.acmicpc.net/problem/16638,1625,57,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16638
+104,브루트 포스 Part 2,17085,,십자가 2개 놓기,https://www.acmicpc.net/problem/17085,2605,33,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17085
+105,브루트 포스 Part 2,17825,,주사위 윷놀이,https://www.acmicpc.net/problem/17825,15423,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17825
+106,브루트 포스 Part 2,16987,,계란으로 계란치기,https://www.acmicpc.net/problem/16987,13156,50,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16987
+107,브루트 포스 Part 2,16988,,Baaaaaaaaaduk2 (Easy),https://www.acmicpc.net/problem/16988,4322,49,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16988
+108,브루트 포스 Part 2,15684,,사다리 조작,https://www.acmicpc.net/problem/15684,75923,22,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15684
+109,브루트 포스 Part 2,4902,,삼각형의 값,https://www.acmicpc.net/problem/4902,2278,23,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/4902
+110,브루트 포스 Part 2,16945,,매직 스퀘어로 변경하기,https://www.acmicpc.net/problem/16945,1665,53,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16945
+111,브루트 포스 Part 2,16953,,A → B,https://www.acmicpc.net/problem/16953,63935,39,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16953
+112,브루트 포스 Part 2,17136,,색종이 붙이기,https://www.acmicpc.net/problem/17136,29039,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17136
+113,브루트 포스 Part 2,17471,,게리맨더링,https://www.acmicpc.net/problem/17471,31199,40,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17471
+114,브루트 포스 Part 3,16985,,Maaaaaaaaaze,https://www.acmicpc.net/problem/16985,6476,55,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16985
+115,브루트 포스 Part 3,17090,,미로 탈출하기,https://www.acmicpc.net/problem/17090,6413,33,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17090
+116,브루트 포스 Part 3,12931,,두 배 더하기,https://www.acmicpc.net/problem/12931,2706,61,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12931
+117,브루트 포스 Part 3,16958,,텔레포트,https://www.acmicpc.net/problem/16958,2411,39,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16958
+118,브루트 포스 Part 3,12908,,텔레포트 3,https://www.acmicpc.net/problem/12908,1207,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12908
+119,브루트 포스 Part 3,16957,,체스판 위의 공,https://www.acmicpc.net/problem/16957,2122,38,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16957
+120,브루트 포스 Part 3,16971,,배열 B의 값,https://www.acmicpc.net/problem/16971,1136,37,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16971
+121,브루트 포스 Part 3,17472,,다리 만들기 2,https://www.acmicpc.net/problem/17472,31467,33,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17472
+122,브루트 포스 Part 3,14056,,K번째 좋은 문자열,https://www.acmicpc.net/problem/14056,115,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14056
+123,그래프 알고리즘,2252,,줄 세우기,https://www.acmicpc.net/problem/2252,58421,57,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2252
+124,그래프 알고리즘,2056,,작업,https://www.acmicpc.net/problem/2056,17244,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2056
+125,그래프 알고리즘,14263,,카드 놓기,https://www.acmicpc.net/problem/14263,485,25,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14263
+126,BFS 알고리즘,8111,,0과 1,https://www.acmicpc.net/problem/8111,2788,57,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/8111
+127,BFS 알고리즘,17071,,숨바꼭질 5,https://www.acmicpc.net/problem/17071,16647,24,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/17071
+128,BFS 알고리즘,1525,,퍼즐,https://www.acmicpc.net/problem/1525,18895,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1525
+129,BFS 알고리즘,16973,,직사각형 탈출,https://www.acmicpc.net/problem/16973,7938,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16973
+130,BFS 알고리즘,1175,,배달,https://www.acmicpc.net/problem/1175,3635,32,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1175
+131,BFS 알고리즘,16959,,체스판 여행 1,https://www.acmicpc.net/problem/16959,1607,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16959
+132,BFS 알고리즘,16952,,체스판 여행 2,https://www.acmicpc.net/problem/16952,698,40,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16952
+133,BFS 알고리즘,12851,,숨바꼭질 2,https://www.acmicpc.net/problem/12851,65503,25,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12851
+134,BFS 알고리즘,9328,,열쇠,https://www.acmicpc.net/problem/9328,23997,27,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/9328
+135,BFS 알고리즘,16920,,확장 게임,https://www.acmicpc.net/problem/16920,9276,22,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/16920
+136,BFS 알고리즘,15653,,구슬 탈출 4,https://www.acmicpc.net/problem/15653,4765,49,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15653
+137,BFS 알고리즘,15558,,점프 게임,https://www.acmicpc.net/problem/15558,6314,30,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/15558
+138,BFS 알고리즘,1385,,벌집,https://www.acmicpc.net/problem/1385,902,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1385
+139,다이나믹 프로그래밍,1695,,팰린드롬 만들기,https://www.acmicpc.net/problem/1695,7208,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1695
+140,다이나믹 프로그래밍,11049,,행렬 곱셈 순서,https://www.acmicpc.net/problem/11049,40121,43,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/11049
+141,다이나믹 프로그래밍,12969,,ABC,https://www.acmicpc.net/problem/12969,2239,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12969
+142,다이나믹 프로그래밍,14238,,출근 기록,https://www.acmicpc.net/problem/14238,3821,32,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/14238
+143,다이나믹 프로그래밍,12026,,BOJ 거리,https://www.acmicpc.net/problem/12026,3852,61,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12026
+144,다이나믹 프로그래밍,12996,,Acka,https://www.acmicpc.net/problem/12996,1470,75,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12996
+145,다이나믹 프로그래밍,2281,,데스노트,https://www.acmicpc.net/problem/2281,4187,42,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2281
+146,다이나믹 프로그래밍,3012,,올바른 괄호 문자열,https://www.acmicpc.net/problem/3012,3990,21,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/3012
+147,다이나믹 프로그래밍,2616,,소형기관차,https://www.acmicpc.net/problem/2616,8876,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2616
+148,다이나믹 프로그래밍,1413,,박스 안의 열쇠,https://www.acmicpc.net/problem/1413,1429,46,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1413
+149,다이나믹 프로그래밍,10564,,팔굽혀펴기,https://www.acmicpc.net/problem/10564,1672,30,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/10564
+150,다이나믹 프로그래밍,1970,,건배,https://www.acmicpc.net/problem/1970,1051,40,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1970
+151,다이나믹 프로그래밍,2163,,초콜릿 자르기,https://www.acmicpc.net/problem/2163,46298,71,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2163
+152,다이나믹 프로그래밍,12872,,플레이리스트,https://www.acmicpc.net/problem/12872,1470,48,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/12872
+153,시뮬레이션과 구현,1913,,달팽이,https://www.acmicpc.net/problem/1913,21636,44,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1913
+154,시뮬레이션과 구현,1952,,달팽이2,https://www.acmicpc.net/problem/1952,6171,53,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1952
+155,시뮬레이션과 구현,1959,,달팽이3,https://www.acmicpc.net/problem/1959,2220,26,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1959
+156,시뮬레이션과 구현,4577,,소코반,https://www.acmicpc.net/problem/4577,2393,28,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/4577
+157,시뮬레이션과 구현,2064,,IP 주소,https://www.acmicpc.net/problem/2064,2342,32,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2064
+158,시뮬레이션과 구현,3107,,IPv6,https://www.acmicpc.net/problem/3107,5414,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/3107
+159,시뮬레이션과 구현,2571,,색종이 - 3,https://www.acmicpc.net/problem/2571,2629,52,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/2571
+160,시뮬레이션과 구현,1089,,스타트링크 타워,https://www.acmicpc.net/problem/1089,3822,28,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/1089
+161,시뮬레이션과 구현,20056,,마법사 상어와 파이어볼,https://www.acmicpc.net/problem/20056,25019,36,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/20056
+162,시뮬레이션과 구현,20057,,마법사 상어와 토네이도,https://www.acmicpc.net/problem/20057,11978,71,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/20057
+163,시뮬레이션과 구현,20058,,마법사 상어와 파이어스톰,https://www.acmicpc.net/problem/20058,16499,41,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/20058
+164,시뮬레이션과 구현,5373,,큐빙,https://www.acmicpc.net/problem/5373,15822,38,,,,,,,,,,,,,,,,,https://www.acmicpc.nethttps://www.acmicpc.net/problem/5373
